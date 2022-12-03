@@ -1,15 +1,15 @@
 import * as React from 'react';
-import {View, Text, SafeAreaView} from 'react-native';
+import {SafeAreaView} from 'react-native';
 
-import Header from "../../components/home-screen/Header";
-import SwipeCard from "../../components/home-screen/SwipeCard";
+import {Footer, Header, SwipeCard} from "../../components/home-screen";
 
 
 const HomeScreen: React.FC = () => {
   return (
-    <SafeAreaView className="flex-1 pt-8">
+    <SafeAreaView className="flex-1 pt-5">
       <Header/>
       <SwipeCard/>
+      <Footer/>
     </SafeAreaView>
   )
 };
