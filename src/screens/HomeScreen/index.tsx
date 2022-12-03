@@ -6,7 +6,7 @@ import {Footer, Header, SwipeCard} from "../../components/home-screen";
 
 const HomeScreen: React.FC = () => {
   return (
-    <SafeAreaView className="flex-1 pt-5">
+    <SafeAreaView className="flex-1 pt-8">
       <Header/>
       <SwipeCard/>
       <Footer/>
