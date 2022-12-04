@@ -6,6 +6,7 @@
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
+    "scheme":"com.nickmiriad.Tinder_RN_App",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
@@ -24,10 +25,17 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.nickmiriad.Tinder_RN_App"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "1fcaf328-fcaf-4b3e-ae53-c09737e480e6"
+      }
     }
-  }
+  },
+  "owner": "nickmiriad"
 }
